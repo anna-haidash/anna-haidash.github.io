@@ -1,0 +1,36 @@
+.about {
+	margin: 0;
+	height: 40vh;
+	align-items: center;
+}
+
+.about .about-text p {
+	position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translateX(-50%) translateY(-50%);
+	width: 55vw;
+
+	  font-style: normal;
+	font-weight: 300;
+	font-size: 1vw;
+	line-height: 130%;
+
+text-align: center;
+color: white;
+}
+
+.about .about-links {
+	position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.about .about-links a {
+	padding: 10px;
+}
+
+.bottom {
+	position: relative;
+}

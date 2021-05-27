@@ -1,0 +1,43 @@
+.c-direction-block {
+    position: relative;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    margin: 0;
+    height: 10vh;
+    align-items: center;
+    }
+
+.c-direction-block_item {
+    position: absolute;
+    font-size: 5vw;
+    white-space: nowrap;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.c-direction-block_item.-one {
+    left: -50%;
+	top: 80%;
+    transform: translateX(10vw) rotate(10deg);
+}
+
+.c-direction-block_item span {
+	display: block;
+    background-color: #fff;
+    white-space: nowrap;
+    padding: 10px 20px;
+}
+
+.o-container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 95rem;
+}
+
+/*.direct {
+	margin: 0;
+	height: 100vh;
+	align-items: center;
+}*/

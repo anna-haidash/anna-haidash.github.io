@@ -1,0 +1,187 @@
+.second-vol {
+	margin: 0;
+height: 240vh;
+align-items: center;
+}
+
+.navch {
+	height: 100vh;
+	position: relative;
+  display:flex;
+  padding:0;
+}
+
+.navch h1 {
+	position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 7.5vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 148px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: lowercase;
+
+  z-index: 3;
+
+
+}
+
+.navch .one {
+	position: absolute;
+	top: 27vh;
+	right: -10vw;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 50vw;
+	line-height: 731px;
+	letter-spacing: 0.15em;
+
+	color: #4D4FCE;
+
+	transform: rotate(-20.52deg);
+
+	z-index: 1;
+
+    -webkit-user-select: none; /* Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+/Edge */
+user-select: none; /* Standard */
+}
+
+.navch .one span {
+
+	transform: rotate(-20.52deg);
+}
+
+.navch-text-one {
+	margin: 0;
+	height: 100vh;
+	position: relative;
+  display:flex;
+  align-items: center;
+  padding:0;
+}
+
+.navch-text-one h1 {
+	position: absolute;
+  font-size: 2vw;
+  letter-spacing: 0.04em;
+  left: 15%;
+  top: 20%;
+  z-index: 2;
+}
+
+.navch-text-one .rectangle-one {
+	position: absolute;
+  left: 15%;
+  top: 12%;
+  z-index: 1;
+}
+
+.navch-ul {
+	position: absolute;
+  /*left: 25%;*/
+  top: 40%;
+
+color: white;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.navch-ul ul {
+  /*list-style: none;*/
+    columns: 100px 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style-position: inside;
+    padding-left: 10vw;
+}
+
+.navch-ul ul li {
+padding-top: 20px;
+	padding-left: 10vw; 
+    font-style: normal;
+  font-weight: 300;
+  font-size: 1.5vw;
+  line-height: 130%;
+
+  color: #FFFFFF;
+}
+
+.navch-ul ul li::before {
+  /*content: "🍦";*/
+  display: inline-block;
+  margin-right: 0.2rem;
+}
+
+.navch-two {
+	height: 1vh;
+	position: relative;
+  display:flex;
+  padding:0;
+    align-items: center;
+
+    z-index: 2;
+}
+
+.navch-two .navch-text {
+	position: absolute;
+	right: 10vw;
+  	top: 4.4vw;
+	max-width: 22vw;
+	max-height: 140px;
+
+    font-style: normal;
+  font-weight: 300;
+  font-size: 1.5vw;
+  line-height: 130%;
+
+text-align: center;
+color: white;
+z-index: 5;
+}
+
+.navch-two .navch-img {
+	position: absolute;
+  right: -5vw;
+  top: -5vw;
+  z-index: 4;
+}
+
+.navch-two .navch-img img {
+	max-width: 52vw;
+}
+
+.navch-three {
+  height: 100vh;
+  position: relative;
+  display:flex;
+  padding:0;
+    align-items: center;
+}
+
+.navch-text-three {
+	position: absolute;
+	max-width: 45vw;
+  left: 15%;
+  top: 15%;
+
+    font-style: normal;
+  font-weight: 300;
+  font-size: 1.5vw;
+  line-height: 130%;
+
+text-align: left;
+color: white;
+}

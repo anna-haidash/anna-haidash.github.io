@@ -1,0 +1,176 @@
+.first-vol {
+margin: 0;
+height: 260vh;
+align-items: center;
+}
+
+.comun {
+	height: 100vh;
+	position: relative;
+  display:flex;
+  padding:0;
+}
+
+.comun h1 {
+	position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 7.5vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 148px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.comun .one {
+	position: absolute;
+	top: 15vh;
+	left: -7vh;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 50vw;
+	line-height: 731px;
+	letter-spacing: 0.15em;
+
+	color: #4D4FCE;
+
+  transform: rotate(30.52deg);
+
+-webkit-user-select: none; /* Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+/Edge */
+user-select: none; /* Standard */
+}
+
+.comun .one span {
+  
+  transform: rotate(300.52deg);
+}
+
+
+.comun-text-one {
+	margin: 0;
+	height: 100vh;
+	position: relative;
+  display:flex;
+  align-items: center;
+  padding:0;
+}
+
+.comun-text-one h1 {
+	position: absolute;
+  font-size: 2vw;
+  letter-spacing: 0.04em;
+  left: 15%;
+  top: 20%;
+  z-index: 2;
+}
+
+.comun-text-one .rectangle-one {
+  
+	position: absolute;
+  left: 15%;
+  top: 16%;
+  z-index: 1;
+}
+
+.comun-text-one .rectangle-one img {
+  width: 10vw;
+}
+.comun-text-one p {
+position: absolute;
+  left: 15%;
+  top: 35%;
+  z-index: 2;
+
+width: 35vw;
+height: 14.5vw;
+
+	font-style: normal;
+font-weight: 300;
+font-size: 1.5vw;
+line-height: 130%;
+
+color: #FFFFFF;
+}
+
+.comun-text-one .comun-img-one {
+	position: absolute;
+  right: 2%;
+  top: 16%;
+  z-index: 1;
+
+  mix-blend-mode: screen;
+opacity: 0.75;
+}
+
+.comun-text-one .comun-img-one img {
+  width: 40vw;
+}
+.comun-text-two {
+	margin: 0;
+	height: 100vh;
+	position: relative;
+  display:flex;
+  align-items: center;
+  padding:0;
+}
+
+.comun-text-two h1 {
+	position: absolute;
+  font-size: 2vw;
+  letter-spacing: 0.04em;
+  left: 55%;
+  top: -7%;
+  z-index: 2;
+}
+
+.comun-text-two .rectangle-two {
+	position: absolute;
+  left: 55%;
+  top: -10%;
+  z-index: 1;
+}
+
+.comun-text-two .rectangle-two img {
+  width: 10vw;
+}
+
+.comun-text-two p {
+position: absolute;
+  left: 55%;
+  top: 8%;
+  z-index: 2;
+
+  width: 40vw;
+  height: 14.5vw;
+
+    font-style: normal;
+  font-weight: 300;
+  font-size: 1.5vw;
+  line-height: 130%;
+
+  color: #FFFFFF;
+
+  /*text-align: justify;
+    text-justify: left;*/
+}
+
+.comun-text-two .comun-img-two {
+	position: absolute;
+  left: 5%;
+  top: -5%;
+  z-index: 5;
+
+  mix-blend-mode: screen;
+opacity: 0.75;
+}
+
+.comun-text-two .comun-img-two img {
+  width: 40vw;
+}

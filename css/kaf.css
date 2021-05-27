@@ -1,0 +1,96 @@
+.kaf {
+	margin: 0;
+	height: auto;
+	align-items: center;
+}
+
+.kaf-title {
+	height: 100vh;
+	position: relative;
+  display:flex;
+  padding:0;
+}
+
+.kaf-title h1 {
+	position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 7.5vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 148px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: lowercase;
+
+  z-index: 3;
+}
+
+.kaf-title .one {
+	position: absolute;
+	top: 42vh;
+	left: -7vh;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 800px;
+	line-height: 731px;
+	letter-spacing: 0.15em;
+
+	color: #4D4FCE;
+
+  transform: rotate(18deg);
+  -webkit-user-select: none; /* Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+/Edge */
+user-select: none; /* Standard */
+
+}
+
+.kaf-title .one span {
+  
+  transform: rotate(290deg);
+}
+
+.kaf-text {
+	height: 70vh;
+	position: relative;
+  display:flex;
+  padding:0;
+  margin: 0;
+	align-items: center;
+}
+
+.kaf-text.kaf-one {
+	padding-top: 15px;
+	height: 50vh !important;
+}
+
+.kaf-text p {
+	position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translateX(-50%) translateY(-50%);
+	width: 55vw;
+
+	  font-style: normal;
+	font-weight: 300;
+	font-size: 1.5vw;
+	line-height: 130%;
+
+text-align: center;
+color: white;
+}
+
+.kaf-img {
+	height: 110vh;
+	position: relative;
+  display:flex;
+  padding:0;
+}
+
+.kaf-img .images {
+	/*top: -10vh;*/
+}

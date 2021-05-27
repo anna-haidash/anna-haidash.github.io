@@ -1,0 +1,27 @@
+.images {
+	display: inline-block;
+	white-space: nowrap;
+	/*padding-top: 150px; */
+}
+
+.images-row {
+padding-top: 55px;
+
+opacity: 30%;
+}
+
+.images-row .first-img {
+transform: translateX(-30vw);
+}
+
+.images-row .first-img img {
+	padding-left: 25px;
+}
+
+.images-row .second-img {
+transform: translateX(-50vw);
+}
+
+.images-row .second-img img {
+	padding-left: 25px;
+}
